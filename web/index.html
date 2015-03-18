@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<!--
+  Copyright (c) 2015, <your name>. All rights reserved. Use of this source code
+  is governed by a BSD-style license that can be found in the LICENSE file.
+-->
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="scaffolded-by" content="https://github.com/google/stagehand">
+    <title>feuille_de_match</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/feuilledematch.css">
+</head>
+
+<body>
+  <div class="feuilledematch bold_shadow_black">
+    <div class="entete">
+      <div id="typematch" class="typematch"> Catégorie / Championnat</div>
+      <div id= "date" class="date"> Date </div>
+      <div id="lieu" class=" white_box lieu"> Stade</div>
+      <div class="equipe domicile">
+        <div id= "club_dom" class = "club club_dom"> Equipe Domicile</div>
+        <div id= "logo_dom" class = "logo club_dom"></div>
+        <div id= "score_dom" class=" white_box score score_dom"></div>
+      </div>
+      <div class="equipe exterieur">
+        <div id= "club_ext" class = "club club_ext"> Equipe Exterieur</div>
+        <div id= "logo_ext" class = "logo club_ext"></div>
+        <div id= "score_ext" class=" white_box score score_ext"></div>
+      </div>
+    </div>
+    <div class=" timeline timeline_first">
+      <div class="timeline_box timeline_box_first"> 
+        <span id="pos_0" class="pos_timeline">0</span> 
+        <span id="pos_5" class="pos_timeline">5</span> 
+        <span id="pos_10" class="pos_timeline">10</span> 
+        <span id="pos_15" class="pos_timeline">15</span> 
+        <span id="pos_20" class="pos_timeline">20</span> 
+        <span id="pos_25" class="pos_timeline">25</span>
+      </div>
+    </div>
+    <div class=" timeline timeline_second">
+      <div class="timeline_box timeline_box_second">
+        <span id="pos_0" class="pos_timeline">25</span>
+        <span id="pos_5" class="pos_timeline">30</span> 
+        <span id="pos_10" class="pos_timeline">35</span> 
+        <span id="pos_15" class="pos_timeline">40</span> 
+        <span id="pos_20" class="pos_timeline">45</span> 
+        <span id="pos_25" class="pos_timeline">50</span>
+      </div>
+    </div>
+  </div>
+  <div class="pied" id="selection"></div>
+  <div id="liste_joueur"></div>
+  <div> 
+    <button id="sauvegarde">Sauvegarde</button>
+  </div>
+
+<script type="application/dart" src="main.dart"></script>
+<script data-pub-inline src="packages/browser/dart.js"></script>
+</body>
+</html>

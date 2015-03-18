@@ -1,0 +1,298 @@
+body {
+font-family: arial, helvetica, sans-serif;
+margin: 0px;
+background-color: white;
+}
+
+.feuilledematch {
+background-color: rgb(0,128,0);
+/*background-image:url(AGSE_STCYR1.jpg); */
+width : 960px;
+height: 372px;
+position: top;
+}
+
+/************************** Classe constante. ***************************/
+.bold_shadow_black {
+font-weight : bold;
+color : white;
+text-shadow: rgb(0, 0, 0) 0px 0px 3px;
+}
+.white_box {
+background: white;
+color : black;
+font-weight : bold;
+text-shadow: rgb(200, 200, 200) 0px 0px 3px;
+}
+/************************** Entete de la feuille de match. **************/
+.entete {
+background: #888888;
+height : 30px;
+width : 960px;
+color : lightgrey;
+top : 0px;
+}
+.typematch {
+top : 0px;
+position : absolute;
+width : 280px;
+text-align: left;
+margin : 5px;
+}
+.date {
+top : 0px;
+left : 670px;
+position : absolute;
+width : 280px;
+text-align: right;
+margin : 5px;
+}
+.lieu {
+
+height : 40px;
+width : 400px;
+position : absolute;
+left : 280px;
+font-size : 20px;
+text-align : center;
+border-radius : 10px;
+
+}
+/************************** Bloc Equipe. *********************************/
+.equipe {
+position : absolute;
+top : 50px;
+height : 250px;
+width : 400px;
+color : white;
+font-weight : bold;
+}
+.club {
+position : absolute;
+width: 300px;
+margin-left: -150px;
+font-size : 25px;
+text-align: center;
+}
+.logo{
+position: absolute;
+top: 50px;
+width: 300px;
+height : 100px;
+margin-left: -150px;
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+.score {
+width: 100px;
+height: 100px;
+font-size: 80px;
+text-align: center;
+border-radius : 8px;
+position: absolute;
+top: 50px;
+}
+/*------------------------- Domicile. -----------------------------------*/
+.domicile {
+left : 0px;
+}
+.club_dom {
+left: 200px;
+}
+.score_dom {
+left: 378px;
+}
+/*------------------------- Exterieur. ----------------------------------*/
+.exterieur {
+left : 480px;
+}
+.club_ext {
+left: 280px;
+}
+.score_ext {
+left: 2px;
+}
+/************************** Timeline. ************************************/
+.timeline{
+height : 84px;
+width : 400px;
+top : 224px;
+position : absolute;
+left : 78px;
+vertical-align: middle;
+}
+.timeline_box {
+background: black;
+height : 28px;
+left : 0px;
+position : absolute;
+top : 28px;
+width : 400px;
+}
+/*------------------------- First half.----------------------------------*/
+.timeline_first {
+left : 78px;
+}
+.timeline_box_first{
+border-radius : 10px 0px 0px 10px;
+}
+/*------------------------- Exterieur. ----------------------------------*/
+.timeline_second {
+left : 482px;
+}
+.timeline_box_second{
+border-radius : 0px 10px 10px 0px;
+}
+/*------------------------- Time position. ------------------------------*/
+.pos_timeline
+{
+position : absolute;
+top : 5px;
+}
+
+#pos_0 {
+left : 1%;
+}
+#pos_1 , #pos_26 {
+left : 4%;
+}
+#pos_2 , #pos_27{
+left : 8%;
+}
+#pos_3 , #pos_28{
+left : 12%;
+}
+#pos_4 , #pos_29{
+left : 16%;
+}
+#pos_5 , #pos_30{
+left : 20%;
+}
+#pos_6 , #pos_31{
+left : 24%;
+}
+#pos_7 , #pos_32{
+left : 28%;
+}
+#pos_8, #pos_33 {
+left : 32%;
+}
+#pos_9, #pos_34 {
+left : 36%;
+}
+#pos_10, #pos_35 {
+left : 40%;
+}
+#pos_11, #pos_36 {
+left : 44%;
+}
+#pos_12, #pos_37 {
+left : 48%;
+}
+#pos_13, #pos_38 {
+left : 52%;
+}
+#pos_14, #pos_39 {
+left : 56%;
+}
+#pos_15, #pos_40 {
+left : 60%;
+}
+#pos_16, #pos_41 {
+left : 64%;
+}
+#pos_17, #pos_42 {
+left : 68%;
+}
+#pos_18, #pos_43 {
+left : 72%;
+}
+#pos_19, #pos_44 {
+left : 76%;
+}
+#pos_20, #pos_45 {
+left : 80%;
+}
+#pos_21, #pos_46 {
+left : 84%;
+}
+#pos_22, #pos_47 {
+left : 88%;
+}
+#pos_23, #pos_48 {
+left : 92%;
+}
+#pos_24, #pos_49 {
+left : 96%;
+}
+#pos_25, #pos_50 {
+right : 1%;
+}
+/*------------------------- Time position. ------------------------------*/
+.buteur{
+display: none;
+position: absolute;
+left: -25px;
+width: 100px;
+text-align: center;
+}
+.but {
+position : absolute;
+width : 25px;
+height : 25px;
+}
+/*-----------------------------------------------------------------------*/
+.buteur_dom {
+top: -20px;
+}
+.but_dom {
+top : 0px;
+}
+/*-----------------------------------------------------------------------*/
+.buteur_ext {
+top: 35px;
+}
+.but_ext {
+top : 60px;
+}
+/************************** Pied de page de la feuille de match. *********/
+.pied {
+background: #888888;
+height : 60px;
+width : 960px;
+position : absolute;
+top : 342px;
+}
+.joueur{
+width : 160px;
+padding-left: 4px;
+}
+
+.ballon {
+width : 25px;
+height :25px;
+}
+
+a:hover span{
+display: inherit;
+}
+
+.pied button
+{
+  border : none;
+}
+
+.goaleador{
+color : blue; 
+text-shadow: rgb(255, 255, 255) 0px 0px 3px;
+}
+
+
+
+#agse {
+background-image :url(http://agsessartsfoot.fr/includes/logo/3947.jpg);
+}
+#afcstcyr {
+background-image :url(http://agsessartsfoot.fr/includes/logo/637.jpg);
+}
